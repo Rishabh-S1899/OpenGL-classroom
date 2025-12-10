@@ -69,7 +69,7 @@ From the same MinGW64 shell (so the runtime DLLs are on PATH), run the generated
 If you need to run from PowerShell, ensure the MinGW64 `bin` directory is on your PATH so required DLLs (libstdc++, libgcc, GLFW/GLEW DLLs) are found:
 
 ```powershell
-$env:PATH += ";C:\msys64\mingw64\bin"
+$env:PATH += "C:\msys64\mingw64\bin"
 # then run the exe from the project folder
 C:\College\7th_Sem\CS-550\ogl-master\ogl-master\main.exe
 ```
@@ -122,10 +122,3 @@ How to contribute
 - Keep shader files in a `shaders/` folder and reference them via a relative `basePath` in source.
 - Add build notes to this README if you add platform-specific dependencies.
 
-Contact / Author
-----------------
-This README was created to help build the project with MSYS2/MinGW. If any specific build errors occur on your machine, paste the build log and I can help debug the errors.
-
----
-
-(End of README)
