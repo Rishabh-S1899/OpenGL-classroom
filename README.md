@@ -1,9 +1,8 @@
-# ogl-master
+# OpenGL Classroom Model
 
 This repository contains several OpenGL example programs and helper code used for teaching and experimentation. Two notable examples are:
 
 - `main.cpp`: a modern GLFW/GLAD core-profile demo that compiles embedded GLSL shaders (Phong & Gouraud) from string literals.
-- `CLASSROOM.cpp`: an older, mixed fixed-function / shader example that loads external shader files and demonstrates shadow mapping.
 
 This README explains how to build and run the project on Windows using MSYS2 (MinGW-w64) and the included `Makefile`.
 
